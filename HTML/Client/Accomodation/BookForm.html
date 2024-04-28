@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../CSS/index.css">
+    <script src="https://kit.fontawesome.com/d8f0503c9b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <a href="#"><img src="../../../IMAGES/Icon-2/Asset 10@4x.png"></a>
+        <div class="header-navigation">
+            <div class="nav">
+                <div class="sub-nav">
+                    <a href="#">Gallery</a>
+                    <a href="#">Reviews</a>
+                    <a href="#">Contacts</a>
+                    <a href="#">Location</a>
+                </div>
+                <div class="main-nav">
+                    <a href="#">Home</a>
+                    <a href="#">Accomodations</a>
+                    <a href="#">Facilities</a>
+                    <a href="#">About Us</a>
+                </div>
+            </div>
+            <a href="../sign.php" class="sign-in">
+                <span>want to check reservation?</span>
+                <p>SIGN IN</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="heading-container">
+        <p>Accomodations</p>
+    </div>
+
+    <div class="process">
+        <a href="#" class="selected">Room Selection</a>
+        <a href="#" class="selected">Check In-Out Selection</a>
+        <a href="#" class="selected">Client Details</a>
+        <a href="#"  class="selected">Booking Details</a>
+        <a href="#">Receipt</a>
+    </div>
+
+    <div class="container-client">
+        <form action="" method="post">
+            <label for="bookDate">Booking Date:</label>
+            <input type="date" id="bookDate" disabled><br>
+            <label for="inDate">Check-in Date:</label>
+            <input type="date" id="inDate" disabled><br>
+            <label for="outDate">Check-out Date:</label>
+            <input type="date" id="outDate" disabled><br>
+            <label for="roomType">Room Type</label>
+            <input type="text" id="roomType" disabled><br>
+            <p class="sub-heading">Amenities</p>
+            <div class="amenities">
+                <input type="radio" id="gasul" name="gasul" value="gasul">
+                <label for="gasul">Gasul</label><br>
+                <input type="radio" id="gasul" name="videoke" value="videoke">
+                <label for="videoke">Videoke</label><br>
+            </div>
+            <p class="sub-heading">Payment Choice:</p>
+            <div class="payment">
+                <input type="radio" id="down" name="down" value="down">
+                <label for="dowm">Down Payment</label><br>
+                <input type="radio" id="full" name="full" value="full">
+                <label for="videoke">Full Payment</label><br>
+            </div>
+            <label for="request">Special Request:</label>
+            <input type="te" id="request"><br>
+        </form>
+    </div>
+    
+    <div class="container-buttons">
+        <a href="#">CANCEL</a>
+        <a href="#">SUBMIT</a>
+    </div>
+</body>
+
+</html>
