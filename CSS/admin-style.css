@@ -92,7 +92,7 @@ body {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 10px 15px;
+    padding: 0 15px;
     border-bottom: 1px solid var(--gray);
 }
 
@@ -129,7 +129,6 @@ body {
     display: flex;
     gap: 10px;
     margin: 15px 0;
-
 }
 
 .status-details{
@@ -140,6 +139,7 @@ body {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    height: 128px;
 }
 
 .total-amount{
@@ -206,4 +206,29 @@ body {
     margin-bottom: 20px;
     text-align: center;
     text-transform: uppercase;
+}
+
+.accounts {
+    width: 75vw;
+}
+
+.account_label {
+    width: 70px;
+}
+
+.account_container {
+    width: 400px;
+}
+
+.account_input {
+    width: 300px;
+}
+
+.fill {
+    height: 20px;
+}
+
+.account_image {
+    width: 100px !important;
+    height: 100px !important;
 }
